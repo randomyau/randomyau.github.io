@@ -17,6 +17,12 @@
 		vertical-align: baseline;
 	}
 
+	#titlefont {
+		font-family: roguehero3d;
+		font-size: 100px;
+		color: black;
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -3867,7 +3873,7 @@
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #312450;
 						}
 
 		}
