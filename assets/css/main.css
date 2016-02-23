@@ -20,7 +20,7 @@
 	#titlefont {
 		font-family: roguehero3d;
 		font-size: 100px;
-		color: black;
+		color: white;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -3520,7 +3520,7 @@
 		}
 
 	#footer > .inner a {
-		border-bottom-color: rgba(255, 255, 255, 0.15);
+		border-bottom-color: rgba(255, 255, 255, 0.15); 
 	}
 
 		#footer > .inner a:hover {
@@ -3889,7 +3889,7 @@
 /* Intro */
 
 	#intro {
-		background-image: url("http://wallpapercave.com/wp/HYgj79F.jpg");
+		background-image: url("images/wallpaper.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
