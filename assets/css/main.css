@@ -3890,6 +3890,7 @@
 
 	#intro {
 		background-image: url("images/wallpaper.jpg");
+		background-attachment: fixed;
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
