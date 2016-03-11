@@ -143,15 +143,16 @@
 							<p>Just try to send me something. It might work!</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="index.php">
+									<form id="contactform" action="http://formspree.io/210078@hkis.edu.hk" method="POST">
 										<div class="field half first">
 											<label for="name">Name</label>
 											<input type="text" name="name" id="name" />
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="email" name="email" id="email" />
+											<input type="email" name="_replyto" id="email" />
 										</div>
+										<input type="hidden" name="_subject" value="Website contact" />
 										<div class="field">
 											<label for="message">Message</label>
 											<textarea name="message" id="message" rows="5"></textarea>
@@ -160,7 +161,7 @@
 											<label for="human">What is 2+2?</label>
 											<input type="text" name="human" id="human" />
 										</div>
-										<input id="submit" name="submit" type="submit" value="Submit">
+										<input id="submit" name="submit" type="submit" value="Send">
 									</form>
 								</section>
 								<section>
@@ -181,11 +182,9 @@
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
-												<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://www.facebook.com/prince.brandon.376" class="fa-facebook"><span class="label">Facebook</span></a></li>
+												<li><a href="https://github.com/randomyau" class="fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="instagram.com/randyyau" class="fa-instagram"><span class="label">Instagram</span></a></li>
 											</ul>
 										</li>
 									</ul>
